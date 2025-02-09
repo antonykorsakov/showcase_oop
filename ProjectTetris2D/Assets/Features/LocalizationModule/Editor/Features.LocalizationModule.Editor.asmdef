@@ -1,0 +1,20 @@
+{
+    "name": "Features.LocalizationModule.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d1b9ce05f905e0d44aa18065007e1c4a",
+        "GUID:eec0964c48f6f4e40bc3ec2257ccf8c5",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Features.AnalyticsModule.Core",
+    "rootNamespace": "",
+    "references": [
+        "GUID:88d0436233705bf4282e9d35949e2c61",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

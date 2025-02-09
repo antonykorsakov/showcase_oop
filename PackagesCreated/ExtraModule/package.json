@@ -1,0 +1,19 @@
+{
+  "name": "com.tony.extra-module",
+  "version": "1.0.2",
+  "displayName": "ExtraModule",
+  "description": "This is a package for make prefabs async",
+  "unity": "6000.0",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://raw.githubusercontent.com/antonykorsakov/showcase/main/PackagesCreated/ExtraModule/CHANGELOG.md",
+  "licensesUrl": "https://example.com/licensing.html",
+  "dependencies": {
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask"
+  },
+  "author": {
+    "name": "Tony",
+    "email": "antony.korsakov@gmail.com",
+    "url": "https://www.linkedin.com/in/antonykorsakov/"
+  },
+  "_fingerprint": "cf3ed3f658a2248d46ab7d67e6baac57dda5eca0"
+}

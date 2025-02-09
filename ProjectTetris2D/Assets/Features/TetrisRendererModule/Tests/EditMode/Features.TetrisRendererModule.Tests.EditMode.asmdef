@@ -1,0 +1,19 @@
+{
+    "name": "Features.TetrisRendererModule.Tests.EditMode",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5fe347b9f37874c478ca0712791f346c",
+        "GUID:1e8b2087c78fe674badc971fbbd215da"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Features.StatisticsModule.Core",
+    "rootNamespace": "",
+    "references": [
+        "GUID:aae045c61bd46b6418f61a2d37bb3476",
+        "GUID:88d0436233705bf4282e9d35949e2c61"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

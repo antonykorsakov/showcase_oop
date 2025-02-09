@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcfe3a6acbde44b09d4f8e333c6febc0, type: 3}
+  m_Name: UiViewMainScreenConfig
+  m_EditorClassIdentifier: 
+  _speedSettingsTitleKey:
+    m_TableReference:
+      m_TableCollectionName: GUID:17bbb083a0804184f967ca793b42c15c
+    m_TableEntryReference:
+      m_KeyId: 774347229106176
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _tetrominoSettingsLocale:
+    m_TableReference:
+      m_TableCollectionName: GUID:17bbb083a0804184f967ca793b42c15c
+    m_TableEntryReference:
+      m_KeyId: 1270568507019264
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _gidSettingsLocale:
+    m_TableReference:
+      m_TableCollectionName: GUID:17bbb083a0804184f967ca793b42c15c
+    m_TableEntryReference:
+      m_KeyId: 774374227841024
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  _bonusSettingsLocale:
+    m_TableReference:
+      m_TableCollectionName: GUID:17bbb083a0804184f967ca793b42c15c
+    m_TableEntryReference:
+      m_KeyId: 774380628348928
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

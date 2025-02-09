@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: GlobalTextTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: GlobalTextTable
+  m_TableCollectionNameGuidString: 17bbb083a0804184f967ca793b42c15c
+  m_Entries:
+  - m_Id: 9500547747840
+    m_Key: smart_app_version
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4413165865930752
+    m_Key: display_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21379089305600
+    m_Key: artist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 780683081814016
+    m_Key: coming_soon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1582511296512
+    m_Key: continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1311580229632
+    m_Key: credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21376195235840
+    m_Key: developer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8240901787648
+    m_Key: drop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1608130105344
+    m_Key: exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101996967628800
+    m_Key: level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1557513244672
+    m_Key: pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 539102679040
+    m_Key: play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72979593957376
+    m_Key: restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101480351010816
+    m_Key: score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101761784614912
+    m_Key: score_hi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 771897566826496
+    m_Key: settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 774380628348928
+    m_Key: settings_bonus_level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 774374227841024
+    m_Key: settings_grid_level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1270568507019264
+    m_Key: settings_tetromino_level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 774347229106176
+    m_Key: settings_speed_level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101976356818944
+    m_Key: speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1191870599168
+    m_Key: statistic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2261568373264384
+    m_Key: result_duratoin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2261477285564416
+    m_Key: result_lines_count
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2261389708496896
+    m_Key: result_tetro_count
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1657619370872832
+    m_Key: tetromino_level_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1657763185168384
+    m_Key: tetromino_level_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1657766129569792
+    m_Key: tetromino_level_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1657768142835712
+    m_Key: tetromino_level_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1657769686339584
+    m_Key: tetromino_level_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1667450190303232
+    m_Key: tetromino_level_5
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2246355350303015223
+  references:
+    version: 2
+    RefIds:
+    - rid: 2246355350303015223
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1736820267636

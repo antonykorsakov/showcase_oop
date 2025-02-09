@@ -1,0 +1,19 @@
+{
+    "name": "Features.TetrisRendererModule.Core",
+    "rootNamespace": "",
+    "references": [
+        "GUID:88d0436233705bf4282e9d35949e2c61",
+        "GUID:ae2621650288cda4e8dd17bda85426dd",
+        "GUID:5fe347b9f37874c478ca0712791f346c",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

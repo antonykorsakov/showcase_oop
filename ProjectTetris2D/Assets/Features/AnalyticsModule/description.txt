@@ -1,0 +1,4 @@
+Android: Assets/google-services.json
+iOS: Assets/GoogleService-Info.plist
+------------------------------------
+Web analytics requires disabling AdBlock in the browser!

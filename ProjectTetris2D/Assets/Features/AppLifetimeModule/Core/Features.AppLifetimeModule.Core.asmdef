@@ -1,0 +1,16 @@
+{
+    "name": "Features.AppLifetimeModule.Core",
+    "rootNamespace": "",
+    "references": [
+        "GUID:88d0436233705bf4282e9d35949e2c61"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

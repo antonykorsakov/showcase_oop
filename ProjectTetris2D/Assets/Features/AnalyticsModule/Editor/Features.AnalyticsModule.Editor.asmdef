@@ -1,0 +1,18 @@
+{
+    "name": "Features.AnalyticsModule.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:88d0436233705bf4282e9d35949e2c61"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

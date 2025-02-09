@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "39020812732",
+    "project_id": "tony-showcase-game2d",
+    "storage_bucket": "tony-showcase-game2d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39020812732:android:eb2b4024a59608a46c73b9",
+        "android_client_info": {
+          "package_name": "com.tonycorp.tetris2d"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdVVJp-d3hXTrL4HQCBEyCtlsayk4kU-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

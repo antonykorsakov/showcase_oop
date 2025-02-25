@@ -87,6 +87,9 @@ Showcase is a project demonstrating my hard skills in Unity. UML diagrams, clean
 ## Example
 
 ```csharp
+using System;
+using UnityEngine;
+
 namespace ExampleModule
 {
     public class ExampleScript : MonoBehaviour

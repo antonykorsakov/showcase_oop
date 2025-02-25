@@ -135,7 +135,8 @@ namespace ExampleModule
 ```
 
 ⚠️ **Warning:** ⚠️
-It is 🚨**<u>strongly recommended</u>** to **<u>separate static logic</u>**🚨 into a dedicated non-static script (except for fields). Keeping static methods within a non-static class can lead to:
+
+It is 🚨 **strongly recommended** to **separate static logic** 🚨 into a dedicated non-static script (except for fields). Keeping static methods within a non-static class can lead to:
 - Violates Single Responsibility Principle (SRP) by SOLID  
 - Reduces file readability
 - Complicates scalability and class maintainability

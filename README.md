@@ -134,13 +134,13 @@ namespace ExampleModule
 }
 ```
 
-⚠️ **Warning (strongly recommended):** ⚠️
+🚨⚠️ **Strongly recommended:** ⚠️🚨
 
-🚨 **Separate static logic** 🚨 into a dedicated non-static script.
-Keeping static methods within a non-static class violates the Single Responsibility Principle (SRP) from SOLID and can lead to:
-- Reduced file readability
-- Complicated scalability and class maintainability
-- May cause unexpected behavior when combined with MonoBehaviour
+> **Separate static logic** into a dedicated non-static script.
+> Keeping static methods within a non-static class violates the Single Responsibility Principle (SRP) from SOLID and can lead to:
+> - Reduced file readability
+> - Complicated scalability and class maintainability
+> - May cause unexpected behavior when combined with MonoBehaviour
 
 [jump to Table of Contents](#table-of-contents)
 

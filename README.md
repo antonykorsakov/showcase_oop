@@ -134,9 +134,9 @@ namespace ExampleModule
 }
 ```
 
-⚠️ **Warning:** ⚠️
+⚠️ **Warning (strongly recommended):** ⚠️
 
-It is 🚨 **strongly recommended** to **separate static logic** 🚨 into a dedicated non-static script. 
+🚨 **Separate static logic** 🚨 into a dedicated non-static script.
 Keeping static methods within a non-static class violates the Single Responsibility Principle (SRP) from SOLID and can lead to:
 - Reduced file readability
 - Complicated scalability and class maintainability

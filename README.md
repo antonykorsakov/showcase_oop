@@ -50,6 +50,10 @@ Showcase is a project demonstrating my hard skills in Unity. UML diagrams, clean
 - Protected
 - Private
 
+## Class member static ordering (StyleCop)
+- static
+- none-static
+
 ## Extra project rules
 <details>
 	<summary>Extra code style rules</summary>
@@ -79,6 +83,64 @@ Showcase is a project demonstrating my hard skills in Unity. UML diagrams, clean
   - Each class must be in its own file. Avoid defining classes inside other classes.
   - All classes must use the `sealed` keyword whenever the syntax permits it. The `sealed` modifier can only be omitted if inheritance is explicitly required to implement or modify the behavior of a feature.
 </details>
+
+## Example
+
+```csharp
+namespace ExampleModule
+{
+    public class ExampleScript : MonoBehaviour
+    {
+        private const string GreetingMessage = "Hello, Unity!";
+        private static int _instanceCount;
+
+        [SerializeField] private float speed = 5f;
+
+        // constructor
+        // public ExampleScript() {}
+
+        public static int InstanceCount => _instanceCount;
+        public float Speed => speed;
+
+        public event Action SpeedChangingEvent;
+        public event Action SpeedChangedEvent;
+
+        private void Awake()
+        {
+            Debug.Log(GreetingMessage);
+            IncreaseInstanceCount();
+        }
+
+        private void OnDestroy() => DecreaseInstanceCount();
+        private void Update() => Move();
+
+        public static void ResetInstanceCount() => _instanceCount = 0;
+
+        public void IncreaseSpeed(float value)
+        {
+            SpeedChangingEvent?.Invoke();
+            speed = Mathf.Max(0, value);
+            SpeedChangedEvent?.Invoke();
+        }
+
+        private static void IncreaseInstanceCount() => _instanceCount++;
+        private static void DecreaseInstanceCount() => _instanceCount--;
+
+        private void Move()
+        {
+            transform.position += Vector3.forward * (speed * Time.deltaTime);
+        }
+    }
+}
+```
+
+> ⚠️ **Warning:**
+> It is 🚨**<u>strongly recommended</u>** to **<u>separate static logic</u>**🚨 into a dedicated non-static script (except for fields). Keeping static methods within a non-static class can lead to:
+- Violates Single Responsibility Principle (SRP) by SOLID  
+- Reduces file readability
+- Complicates scalability and class maintainability
+- May cause unexpected behavior when combined with MonoBehaviour
+
 
 [jump to Table of Contents](#table-of-contents)
 

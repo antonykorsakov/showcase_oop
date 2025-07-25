@@ -1,6 +1,6 @@
 namespace Features.Common.Core
 {
-    public class IGameStats
+    public interface IGameStats
     {
         
     }
